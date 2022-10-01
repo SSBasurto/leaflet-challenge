@@ -3,41 +3,24 @@ body {
   margin: 0;
 }
 
-#mapid,
+#map,
 body,
 html {
   height: 100%;
 }
 
-/* Set Legend Style */
-.info {
-  padding: 1px 10px;
-  background: #ebfae2;
+.legend {
+  padding: 10px;
+  line-height: 25px;
+  color: gray;
+  background-color: white;
   border-radius: 5px;
 }
 
-.legend {
-  line-height: 25px;
-  color: #000000;
-}
-
 .legend i {
+  float: left;
   width: 20px;
   height: 20px;
-  float: right;
   margin-right: 10px;
-  margin-left: 10px;
-  opacity: 0.75;
-}
-
-h3 {
-  margin: 0px;
-  padding: 2px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  margin: -5px;
-  padding: -6px;
-  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
 }
